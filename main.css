@@ -1,0 +1,146 @@
+
+/* This make gives a black color to text everywhere */
+
+* {
+	color: #000;
+}
+
+
+/* ------------------
+ This styles the nav 
+ -------------------- */
+
+.nav {
+	text-align: right;
+	margin-right: 25px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.nav li {
+	display: inline;
+	padding: 5px 10px 0 0;
+	margin: 5px 10px 0 0;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+.nav li img {
+	position: relative;
+	top: 7px;
+}
+
+/* This is the last item on the nav
+	 It's a profile image */
+
+
+#shirin {
+	border-radius: 100%;
+}
+
+
+/* ---------------------------------
+	This style the logo and search bar
+  ---------------------------------- */
+
+.searchBox {
+	margin: auto;
+    width: 60%;
+    padding: 10px;
+    position: relative;
+    top: 150px;
+}
+
+.searchBox img {
+	display: block;
+	margin: 0 auto;
+}
+
+.searchBox input {
+	margin: 0 auto;
+	display: block;
+	width: 600px;
+	height: 24px;
+	border-radius: 5px;
+	border: 1px solid #d9d9d9;
+}
+
+/* -------------------------------------------
+	This styles the buttons under the search bar
+ ---------------------------------------------*/
+
+.buttons {
+	margin: auto;
+  width: 60%;
+  padding: 10px;
+  position: relative;
+  top: 150px;
+	text-align: center;
+	display: block;
+}
+
+.bottom {
+	position: absolute;
+	bottom: 0;
+	display: block;
+	width: 100%;
+}
+
+.bottom a {
+	color: #666666;
+}
+
+
+.left {
+	padding-left: 10px;
+}
+
+.bottom ul {
+	float: left;
+	display: block;
+}
+
+.bottom ul li {
+	display: inline;
+	margin: 0px 7px 0px 7px;
+}
+
+.bottom ul.right {
+	display: block;
+	float: right;
+	padding-right: 20px;
+}
+
+@media only screen and (max-width: 400px) {
+	
+	.searchBox {
+		margin-left: 50px;
+	}
+
+	#input {
+	 width: 120%;
+	}
+
+	.buttons {
+		left: 10px;
+	}
+
+	#logo {
+		width: 70%;
+		margin-left: 50px;
+	}
+
+	.left {
+		margin-left: 60px;
+	}
+
+	.right {
+		margin-right: 100px;
+	}
+
+	#shirin {
+		margin-top: 5px;
+	}
+}
